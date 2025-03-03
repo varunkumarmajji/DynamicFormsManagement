@@ -1,0 +1,28 @@
+<!-- app-header.component.html -->
+<header class="text-white p-4 bg-secondary-color">
+    <div class="container mx-auto flex min-w-full justify-between">
+        <!-- Logo Image (fixed width 500px) -->
+        <div>
+            <img src="assets/images/keyusa-logo.png" alt="Logo" />
+        </div>
+
+        <!-- Centered Header Text (flex-grow to take up remaining space) -->
+        <div class="text-center flex items-center">
+            <!-- Longer text for larger screens (Dynamic Forms Management) -->
+            <h6 class="primary-color hidden sm:block">Dynamic Forms Management</h6>
+
+            <!-- Shorter text for small devices (DFM) -->
+            <h6 class="primary-color block sm:hidden">DFM</h6>
+        </div>
+
+        <!-- Profile Section (fixed width 500px) -->
+        <div class="flex items-center">
+            <!-- Profile Icon (using Heroicons) -->
+            <div class="flex items-center space-x-2">
+                <img src="assets/images/profile.png" alt="Profile" class="w-8 h-8 rounded-full" />
+                <!-- User Profile Name -->
+                <span class="primary-color">Michael</span>
+            </div>
+        </div>
+    </div>
+</header>
